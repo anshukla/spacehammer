@@ -104,7 +104,7 @@
 ;; If you would like to customize this we recommend copying this file to
 ;; ~/.hammerspoon/private/config.fnl. That will be used in place of the default
 ;; and will not be overwritten by upstream changes when spacehammer is updated.
-(local music-app "Spotify")
+(local music-app "Music")
 
 (local return
        {:key :space
@@ -482,6 +482,7 @@
         :items menu-items
         :keys common-keys
         :apps apps
+        :grid {:size "6x4"}
         :hyper {:key :F18}})
 
 
